@@ -1,0 +1,10 @@
+[
+	{
+		"name":"Rick Astley",
+		"command":"./rickAstley"
+	},
+        {
+                "name":"John Williams",
+                "command":"./johnWilliams"
+        }
+]
