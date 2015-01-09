@@ -1,10 +1,6 @@
 [
 	{
-		"name":"Rick Astley",
-		"command":"./rickAstley"
-	},
-        {
-                "name":"John Williams",
-                "command":"./johnWilliams"
-        }
+		"name":"List IP configuration",
+		"command":"./ifconfig-espeak"
+	}
 ]
