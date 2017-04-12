@@ -1,6 +1,6 @@
 pican-menu
 ==========
-Python script that uses uses two external buttons with pull-up (PIN is configurable) to step through a menu.  Two buttons are defined, N(ext) and R(un), R is used to execute a menu-entry, while N is used to step to the next menu-entry. Each time a new entry is selected, it's name is read out using espeak.  By default, button N is configured as BCM pin 24, while R is defined as BCM pin 23. The menu is loaded from menu.json at load-time.
+Python script that uses the two external buttons with pull-up (PIN is configurable) to step through a menu.  Two buttons are used, one for each function, N(ext) and R(un), R is used to execute a menu-entry, while N is used to step to the next menu-entry. Each time a new entry is selected, it's name is read out using espeak.  By default, button N is configured as BCM pin 24, while R is defined as BCM pin 23. The menu is loaded from menu.json at load-time.
 
 Default config is for [pican](skpang.co.uk/catalog/pican-canbus-board-for-raspberry-pi-p-1196.html), but any pair of buttons with pull-up should do. 
 
